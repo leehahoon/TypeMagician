@@ -1,0 +1,966 @@
+{
+  "abort": {
+    "0": "void"
+  },
+  "abs": {
+    "0": "int"
+  },
+  "acos": {
+    "0": "double"
+  },
+  "asctime": {
+    "0": "struct"
+  },
+  "asctime_r": {
+    "0": "struct",
+    "1": "char*"
+  },
+  "asin": {
+    "0": "double"
+  },
+  "assert": {
+    "0": "int"
+  },
+  "atan": {
+    "0": "double"
+  },
+  "atan2": {
+    "0": "double",
+    "1": "double"
+  },
+  "atexit": {
+    "0": "void"
+  },
+  "atof": {
+    "0": "char*"
+  },
+  "atoi": {
+    "0": "char*"
+  },
+  "atol": {
+    "0": "char*"
+  },
+  "bsearch": {
+    "0": "void*",
+    "1": "void*",
+    "2": "size_t",
+    "3": "size_t",
+    "4": "int"
+  },
+  "calloc": {
+    "0": "size_t",
+    "1": "size_t"
+  },
+  "catclose6": {
+    "0": "nl_catd"
+  },
+  "catgets6": {
+    "0": "nl_catd",
+    "1": "int",
+    "2": "int",
+    "3": "char*"
+  },
+  "catopen6": {
+    "0": "char*",
+    "1": "int"
+  },
+  "ceil": {
+    "0": "double"
+  },
+  "clearerr": {
+    "0": "FILE*"
+  },
+  "clock": {
+    "0": "void"
+  },
+  "cos": {
+    "0": "double"
+  },
+  "cosh": {
+    "0": "double"
+  },
+  "ctime": {
+    "0": "time_t*"
+  },
+  "ctime64": {
+    "0": "time64_t*"
+  },
+  "ctime_r": {
+    "0": "time_t*",
+    "1": "char*"
+  },
+  "ctime64_r": {
+    "0": "time64_t*",
+    "1": "char*"
+  },
+  "difftime": {
+    "0": "time_t",
+    "1": "time_t"
+  },
+  "difftime64": {
+    "0": "time64_t",
+    "1": "time64_t"
+  },
+  "div": {
+    "0": "int",
+    "1": "int"
+  },
+  "erf": {
+    "0": "double"
+  },
+  "erfc": {
+    "0": "double"
+  },
+  "exit": {
+    "0": "int"
+  },
+  "exp": {
+    "0": "double"
+  },
+  "fabs": {
+    "0": "double"
+  },
+  "fclose": {
+    "0": "FILE*"
+  },
+  "fdopen5": {
+    "0": "int",
+    "1": "char*"
+  },
+  "feof": {
+    "0": "FILE*"
+  },
+  "ferror": {
+    "0": "FILE*"
+  },
+  "fflush1": {
+    "0": "FILE*"
+  },
+  "fgetc1": {
+    "0": "FILE*"
+  },
+  "fgetpos1": {
+    "0": "FILE*",
+    "1": "fpos_t*"
+  },
+  "fgets1": {
+    "0": "char*",
+    "1": "int",
+    "2": "FILE*"
+  },
+  "fileno5": {
+    "0": "FILE*"
+  },
+  "floor": {
+    "0": "double"
+  },
+  "fmod": {
+    "0": "double",
+    "1": "double"
+  },
+  "fopen": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "fprintf": {
+    "0": "FILE*",
+    "1": "char*",
+    "2": "arg-list"
+  },
+  "fputc1": {
+    "0": "int",
+    "1": "FILE*"
+  },
+  "fputs1": {
+    "0": "char*",
+    "1": "FILE*"
+  },
+  "fread": {
+    "0": "void*",
+    "1": "size_t",
+    "2": "size_t",
+    "3": "FILE*"
+  },
+  "free": {
+    "0": "void*"
+  },
+  "freopen": {
+    "0": "char*",
+    "1": "char*",
+    "2": "FILE*"
+  },
+  "frexp": {
+    "0": "double",
+    "1": "int*"
+  },
+  "fscanf": {
+    "0": "FILE*",
+    "1": "char*",
+    "2": "arg-list"
+  },
+  "fseek1": {
+    "0": "FILE*",
+    "1": "long",
+    "2": "int"
+  },
+  "fsetpos1": {
+    "0": "FILE*",
+    "1": "fpos_t*"
+  },
+  "ftell1": {
+    "0": "FILE*"
+  },
+  "fwrite": {
+    "0": "void*",
+    "1": "size_t",
+    "2": "FILE*"
+  },
+  "gamma": {
+    "0": "double"
+  },
+  "getc1": {
+    "0": "FILE*"
+  },
+  "getchar1": {
+    "0": "void"
+  },
+  "getenv": {
+    "0": "char*"
+  },
+  "gets": {
+    "0": "char*"
+  },
+  "getwchar6": {
+    "0": "void"
+  },
+  "gmtime": {
+    "0": "time_t*"
+  },
+  "gmtime64": {
+    "0": "time64_t*"
+  },
+  "gmtime_r": {
+    "0": "time_t*",
+    "1": "struct"
+  },
+  "gmtime64_r": {
+    "0": "time64_t*",
+    "1": "struct"
+  },
+  "hypot": {
+    "0": "double",
+    "1": "double"
+  },
+  "isalnum": {
+    "0": "int"
+  },
+  "isalpha": {
+    "0": "int"
+  },
+  "isascii4": {
+    "0": "int"
+  },
+  "isblank": {
+    "0": "int"
+  },
+  "iscntrl": {
+    "0": "int"
+  },
+  "isdigit": {
+    "0": "int"
+  },
+  "isgraph": {
+    "0": "int"
+  },
+  "islower": {
+    "0": "int"
+  },
+  "isprint": {
+    "0": "int"
+  },
+  "ispunct": {
+    "0": "int"
+  },
+  "isspace": {
+    "0": "int"
+  },
+  "isupper": {
+    "0": "int"
+  },
+  "iswalnum4": {
+    "0": "wint_t"
+  },
+  "iswalpha4": {
+    "0": "wint_t"
+  },
+  "iswblank4": {
+    "0": "wint_t"
+  },
+  "iswcntrl4": {
+    "0": "wint_t"
+  },
+  "iswctype4": {
+    "0": "wint_t",
+    "1": "wctype_t"
+  },
+  "iswdigit4": {
+    "0": "wint_t"
+  },
+  "iswgraph4": {
+    "0": "wint_t"
+  },
+  "iswlower4": {
+    "0": "wint_t"
+  },
+  "iswprint4": {
+    "0": "wint_t"
+  },
+  "iswpunct4": {
+    "0": "wint_t"
+  },
+  "iswspace4": {
+    "0": "wint_t"
+  },
+  "iswupper4": {
+    "0": "wint_t"
+  },
+  "iswxdigit4": {
+    "0": "wint_t"
+  },
+  "isxdigit4": {
+    "0": "int"
+  },
+  "j0": {
+    "0": "double"
+  },
+  "j1": {
+    "0": "double"
+  },
+  "jn": {
+    "0": "int",
+    "1": "double"
+  },
+  "labs": {
+    "0": "long"
+  },
+  "ldexp": {
+    "0": "double",
+    "1": "int"
+  },
+  "ldiv": {
+    "0": "long",
+    "1": "long"
+  },
+  "localeconv": {
+    "0": "void"
+  },
+  "localtime": {
+    "0": "time_t*"
+  },
+  "localtime64": {
+    "0": "time64_t*"
+  },
+  "localtime_r": {
+    "0": "time_t*",
+    "1": "struct"
+  },
+  "localtime64_r": {
+    "0": "time64_t*",
+    "1": "struct"
+  },
+  "log": {
+    "0": "double"
+  },
+  "log10": {
+    "0": "double"
+  },
+  "longjmp": {
+    "0": "jmp_buf",
+    "1": "int"
+  },
+  "malloc": {
+    "0": "size_t"
+  },
+  "mblen": {
+    "0": "char*",
+    "1": "size_t"
+  },
+  "mbrlen4": {
+    "0": "char*",
+    "1": "size_t",
+    "2": "mbstate_t*"
+  },
+  "mbrtowc4": {
+    "0": "wchar_t*",
+    "1": "char*",
+    "2": "size_t",
+    "3": "mbstate_t*"
+  },
+  "mbsinit4": {
+    "0": "mbstate_t*"
+  },
+  "mbsrtowcs4": {
+    "0": "wchar_t*",
+    "1": "char**",
+    "2": "size_t",
+    "3": "mbstate_t*"
+  },
+  "mbstowcs": {
+    "0": "wchar_t*",
+    "1": "char*",
+    "2": "size_t"
+  },
+  "mbtowc": {
+    "0": "wchar_t*",
+    "1": "char*",
+    "2": "size_t"
+  },
+  "memchr": {
+    "0": "void*",
+    "1": "int",
+    "2": "size_t"
+  },
+  "memcmp": {
+    "0": "void*",
+    "1": "void*",
+    "2": "size_t"
+  },
+  "memcpy": {
+    "0": "void*",
+    "1": "void*",
+    "2": "size_t"
+  },
+  "memmove": {
+    "0": "void*",
+    "1": "void*",
+    "2": "size_t"
+  },
+  "memset": {
+    "0": "void*",
+    "1": "int",
+    "2": "size_t"
+  },
+  "mktime": {
+    "0": "struct"
+  },
+  "mktime64": {
+    "0": "struct"
+  },
+  "modf": {
+    "0": "double",
+    "1": "double*"
+  },
+  "nextafter": {
+    "0": "double",
+    "1": "double"
+  },
+  "nextafterl": {
+    "0": "long",
+    "1": "long"
+  },
+  "nexttoward": {
+    "0": "double",
+    "1": "long"
+  },
+  "nexttowardl": {
+    "0": "long",
+    "1": "long"
+  },
+  "nl_langinfo4": {
+    "0": "nl_item"
+  },
+  "perror": {
+    "0": "char*"
+  },
+  "pow": {
+    "0": "double",
+    "1": "double"
+  },
+  "printf": {
+    "0": "char*",
+    "1": "arg-list"
+  },
+  "putc1": {
+    "0": "int",
+    "1": "FILE*"
+  },
+  "putchar1": {
+    "0": "int"
+  },
+  "putenv": {
+    "0": "char*"
+  },
+  "puts": {
+    "0": "char*"
+  },
+  "putwchar6": {
+    "0": "wchar_t"
+  },
+  "raise": {
+    "0": "int"
+  },
+  "rand": {
+    "0": "void"
+  },
+  "rand_r": {
+    "0": "void"
+  },
+  "realloc": {
+    "0": "void*",
+    "1": "size_t"
+  },
+  "regcomp": {
+    "0": "regex_t*",
+    "1": "char*",
+    "2": "int"
+  },
+  "regerror": {
+    "0": "int",
+    "1": "regex_t*",
+    "2": "char*",
+    "3": "size_t"
+  },
+  "regexec": {
+    "0": "regex_t*",
+    "1": "char*",
+    "2": "size_t",
+    "3": "regmatch_t*",
+    "4": "int"
+  },
+  "regfree": {
+    "0": "regex_t*"
+  },
+  "remove": {
+    "0": "char*"
+  },
+  "rename": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "rewind1": {
+    "0": "FILE*"
+  },
+  "scanf": {
+    "0": "char*",
+    "1": "arg-list"
+  },
+  "setbuf": {
+    "0": "FILE*",
+    "1": "char*"
+  },
+  "setjmp": {
+    "0": "jmp_buf"
+  },
+  "setlocale": {
+    "0": "int",
+    "1": "char*"
+  },
+  "setvbuf": {
+    "0": "FILE*",
+    "1": "char*",
+    "2": "int",
+    "3": "size_t"
+  },
+  "signal": {
+    "0": "*signal"
+  },
+  "sin": {
+    "0": "double"
+  },
+  "sinh": {
+    "0": "double"
+  },
+  "snprintf": {
+    "0": "char*",
+    "1": "size_t",
+    "2": "char*",
+    "3": "..."
+  },
+  "sprintf": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "sqrt": {
+    "0": "double"
+  },
+  "srand": {
+    "0": "unsigned"
+  },
+  "sscanf": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strcasecmp": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strcat": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strchr": {
+    "0": "char*",
+    "1": "int"
+  },
+  "strcmp": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strcoll": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strcpy": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strcspn": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strerror": {
+    "0": "int"
+  },
+  "strfmon4": {
+    "0": "char*",
+    "1": "size_t",
+    "2": "char*"
+  },
+  "strftime": {
+    "0": "char*",
+    "1": "size_t",
+    "2": "char*"
+  },
+  "strlen": {
+    "0": "char*"
+  },
+  "strncasecmp": {
+    "0": "char*",
+    "1": "char*",
+    "2": "size_t"
+  },
+  "strncat": {
+    "0": "char*",
+    "1": "char*",
+    "2": "size_t"
+  },
+  "strncmp": {
+    "0": "char*",
+    "1": "char*",
+    "2": "size_t"
+  },
+  "strncpy": {
+    "0": "char*",
+    "1": "char*",
+    "2": "size_t"
+  },
+  "strpbrk": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strptime4": {
+    "0": "char*",
+    "1": "char*",
+    "2": "struct"
+  },
+  "strrchr": {
+    "0": "char*",
+    "1": "int"
+  },
+  "strspn": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strstr": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strtod": {
+    "0": "char*",
+    "1": "char**"
+  },
+  "strtod32": {
+    "0": "char*",
+    "1": "char**"
+  },
+  "strtod64": {
+    "0": "char*",
+    "1": "char**"
+  },
+  "strtod128": {
+    "0": "char*",
+    "1": "char**"
+  },
+  "strtof": {
+    "0": "char*",
+    "1": "char**"
+  },
+  "strtok": {
+    "0": "char*",
+    "1": "char*"
+  },
+  "strtok_r": {
+    "0": "char*",
+    "1": "char*",
+    "2": "char**"
+  },
+  "strtol": {
+    "0": "char*",
+    "1": "char**",
+    "2": "int"
+  },
+  "strtold": {
+    "0": "char*",
+    "1": "char**"
+  },
+  "strtoul": {
+    "0": "char*",
+    "1": "char**",
+    "2": "int"
+  },
+  "strxfrm": {
+    "0": "char*",
+    "1": "char*",
+    "2": "size_t"
+  },
+  "swprintf": {
+    "0": "wchar_t*",
+    "1": "size_t",
+    "2": "wchar_t*"
+  },
+  "swscanf": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "system": {
+    "0": "char*"
+  },
+  "tan": {
+    "0": "double"
+  },
+  "tanh": {
+    "0": "double"
+  },
+  "time": {
+    "0": "time_t*"
+  },
+  "time64": {
+    "0": "time64_t*"
+  },
+  "tmpfile": {
+    "0": "void"
+  },
+  "tmpnam": {
+    "0": "char*"
+  },
+  "toascii": {
+    "0": "int"
+  },
+  "tolower": {
+    "0": "int"
+  },
+  "toupper": {
+    "0": "int"
+  },
+  "towctrans": {
+    "0": "wint_t",
+    "1": "wctrans_t"
+  },
+  "towlower4": {
+    "0": "wint_t"
+  },
+  "towupper4": {
+    "0": "wint_t"
+  },
+  "ungetc1": {
+    "0": "int",
+    "1": "FILE*"
+  },
+  "wcrtomb4": {
+    "0": "char*",
+    "1": "wchar_t",
+    "2": "mbstate_t*"
+  },
+  "wcscat": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "wcschr": {
+    "0": "wchar_t*",
+    "1": "wchar_t"
+  },
+  "wcscmp": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "wcscoll4": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "wcscpy": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "wcscspn": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "wcsftime": {
+    "0": "wchar_t*",
+    "1": "size_t",
+    "2": "wchar_t*",
+    "3": "struct"
+  },
+  "wcslen": {
+    "0": "wchar_t*"
+  },
+  "wcslocaleconv": {
+    "0": "void"
+  },
+  "wcsncat": {
+    "0": "wchar_t*",
+    "1": "wchar_t*",
+    "2": "size_t"
+  },
+  "wcsncmp": {
+    "0": "wchar_t*",
+    "1": "wchar_t*",
+    "2": "size_t"
+  },
+  "wcsncpy": {
+    "0": "wchar_t*",
+    "1": "wchar_t*",
+    "2": "size_t"
+  },
+  "wcspbrk": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "wcsptime": {
+    "0": "",
+    "1": "wchar_t*",
+    "2": "struct"
+  },
+  "wcsrchr": {
+    "0": "wchar_t*",
+    "1": "wchar_t"
+  },
+  "wcsrtombs4": {
+    "0": "char*",
+    "1": "wchar_t**",
+    "2": "size_t",
+    "3": "mbstate_t*"
+  },
+  "wcsspn": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "wcsstr": {
+    "0": "wchar_t*",
+    "1": "wchar_t*"
+  },
+  "wcstod": {
+    "0": "wchar_t*",
+    "1": "wchar_t**"
+  },
+  "wcstod32": {
+    "0": "wchar_t*",
+    "1": "wchar_t**"
+  },
+  "wcstod64": {
+    "0": "wchar_t*",
+    "1": "wchar_t**"
+  },
+  "wcstod128": {
+    "0": "wchar_t*",
+    "1": "wchar_t**"
+  },
+  "wcstof": {
+    "0": "wchar_t*",
+    "1": "wchar_t**"
+  },
+  "wcstok": {
+    "0": "wchar_t*",
+    "1": "wchar_t*",
+    "2": "wchar_t**"
+  },
+  "wcstol": {
+    "0": "wchar_t*",
+    "1": "wchar_t**",
+    "2": "int"
+  },
+  "wcstold": {
+    "0": "wchar_t*",
+    "1": "wchar_t**"
+  },
+  "wcstombs": {
+    "0": "char*",
+    "1": "wchar_t*",
+    "2": "size_t"
+  },
+  "wcstoul": {
+    "0": "wchar_t*",
+    "1": "wchar_t**",
+    "2": "int"
+  },
+  "wcsxfrm4": {
+    "0": "wchar_t*",
+    "1": "wchar_t*",
+    "2": "size_t"
+  },
+  "wctomb": {
+    "0": "char*",
+    "1": "wchar_t"
+  },
+  "wctrans": {
+    "0": "char*"
+  },
+  "wctype4": {
+    "0": "char*"
+  },
+  "wcwidth": {
+    "0": "wchar_t*",
+    "1": "size_t"
+  },
+  "wmemchr": {
+    "0": "wchar_t*",
+    "1": "wchar_t",
+    "2": "size_t"
+  },
+  "wmemcmp": {
+    "0": "wchar_t*",
+    "1": "wchar_t*",
+    "2": "size_t"
+  },
+  "wmemcpy": {
+    "0": "wchar_t*",
+    "1": "wchar_t*",
+    "2": "size_t"
+  },
+  "wmemmove": {
+    "0": "wchar_t*",
+    "1": "wchar_t*",
+    "2": "size_t"
+  },
+  "wmemset": {
+    "0": "wchar_t*",
+    "1": "wchar_t",
+    "2": "size_t"
+  },
+  "wprintf6": {
+    "0": "wchar_t*"
+  },
+  "wscanf6": {
+    "0": "wchar_t*"
+  },
+  "y0": {
+    "0": "double"
+  },
+  "y1": {
+    "0": "double"
+  },
+  "yn": {
+    "0": "int",
+    "1": "double"
+  }
+}

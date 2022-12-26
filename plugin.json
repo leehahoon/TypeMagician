@@ -1,0 +1,9 @@
+{
+	"pluginmetadataversion" : 2,
+	"name": "TypeMagician",
+	"type": ["helper"],
+	"api": ["python3"],
+	"description": "Assistant plugin for vulnerability research.",
+	"longdescription": "Let's Type Magician!\n"
+}
+
