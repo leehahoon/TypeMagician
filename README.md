@@ -2,5 +2,4 @@
 C Standard Library-based Type Conversion Binary Ninja Plugin
 
 ## Usage
-![[static/plugin_usage.gif]]
-
+![usage](./static/plugin_usage.gif)
